@@ -1,0 +1,25 @@
+[project]
+name = "ML-FASTAPI-DEPLOYMENT"
+description = "Blueprint for deploying ml models using FastAPI"
+version = "0.1.0"
+authors = [
+    { name = "Mehrnoosh H. Kashani", email = "mehrnoosh.h.kashani@gmail.com" }
+]
+
+dependencies = [
+    "pydantic=1.10.7",
+    "PyYAML=6.0",
+    "torch=2.0.0+cpu",
+    "transformers=4.28.1"
+]
+
+[project.optional-dependencies]
+dev = [
+
+]
+
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = [
+    'setuptools',
+]

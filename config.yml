@@ -1,0 +1,11 @@
+"BERTModelConfig": 
+  "BERT_MODEL": "bert-base-cased"
+
+  "PRE_TRAINED_MODEL": "pytorch_model.bin"
+
+  "CLASS_NAMES": 
+    - "negative"
+    - "neutral"
+    - "positive"
+
+  "MAX_SEQUENCE_LEN": 160
